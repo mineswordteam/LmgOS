@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LMG Startup
+Comment=LMG Autostart Manager
+Exec=lmg-startup
+Icon=/usr/share/pixmaps/lmg-start-logo.png
+Terminal=false
+Categories=System;Settings;Utility;LMG-OS;
+Keywords=LMG;OS;System;

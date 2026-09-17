@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LMG Gaming
+Comment=LMG Gaming Performance Tweaks
+Exec=lmg-gaming
+Icon=/usr/share/pixmaps/lmg-start-logo.png
+Terminal=false
+Categories=System;Settings;Utility;LMG-OS;
+Keywords=LMG;OS;System;

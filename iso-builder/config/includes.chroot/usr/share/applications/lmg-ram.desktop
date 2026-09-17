@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LMG RAM
+Comment=LMG Memory Monitor
+Exec=lmg-ram
+Icon=/usr/share/pixmaps/lmg-start-logo.png
+Terminal=false
+Categories=System;Settings;Utility;LMG-OS;
+Keywords=LMG;OS;System;

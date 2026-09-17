@@ -1,0 +1,17 @@
+LMG OS 1.0.0 — Visual QA Artifact Manifest
+===========================================
+
+1. Boot & Startup Screen:
+   - Asset: overlay/usr/share/plymouth/themes/lmg-plymouth/logo.png
+   - Description: Custom LMG OS startup Plymouth theme with MineswordTeam branding.
+
+2. Main Desktop Wallpaper:
+   - Asset: overlay/usr/share/backgrounds/lmg-wallpaper.png
+   - Description: Dark navy blue geometric aesthetic backdrop with neon blue highlights.
+
+3. Start Menu Logo:
+   - Asset: overlay/usr/share/pixmaps/lmg-start-logo.png
+   - Description: Hexagonal LMG emblem for taskbar start button and application launchers.
+
+4. VM Display Captures:
+   - File: lmg_os_desktop_qa.png (Captured via QEMU monitor screendump)

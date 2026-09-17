@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LMG Test
+Comment=LMG System Diagnostics
+Exec=lmg-test
+Icon=/usr/share/pixmaps/lmg-start-logo.png
+Terminal=false
+Categories=System;Settings;Utility;LMG-OS;
+Keywords=LMG;OS;System;
