@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mineswordteam.github.io/LmgOS/sitemap.xml
