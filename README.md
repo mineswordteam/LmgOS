@@ -1,6 +1,6 @@
 # LMG OS
 
-LMG OS (LMGOS, Logic Mind Grid) — a new Linux based on Debian, by Minesword Team (mineswordteam).
+LMG OS (LMGOS, Logic Mind Grid) — a free, lightweight, low-resource and good-looking Linux based on Debian 13 + XFCE, by Minesword Team (mineswordteam).
 
 ال‌ام‌جی او اس — لینوکسی جدید بر پایه‌ی دبیان، ساخته‌ی تیم ماین‌سورد.
 
