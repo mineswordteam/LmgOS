@@ -1,0 +1,18 @@
+logo.image = Image("logo.png");
+logo.sprite = Sprite(logo.image);
+
+logo.x = Window.GetWidth() / 2 - logo.image.GetWidth() / 2;
+logo.y = Window.GetHeight() / 2 - logo.image.GetHeight() / 2 - 20;
+logo.sprite.SetX(logo.x);
+logo.sprite.SetY(logo.y);
+
+# Add title text
+title_image = Image.Text("LMG OS 1.0.0", 1, 1, 1);
+title_sprite = Sprite(title_image);
+title_sprite.SetX(Window.GetWidth() / 2 - title_image.GetWidth() / 2);
+title_sprite.SetY(logo.y + logo.image.GetHeight() + 20);
+
+sub_image = Image.Text("Logic Mind Grid OS — MineswordTeam", 0.7, 0.8, 1);
+sub_sprite = Sprite(sub_image);
+sub_sprite.SetX(Window.GetWidth() / 2 - sub_image.GetWidth() / 2);
+sub_sprite.SetY(title_sprite.GetY() + 25);

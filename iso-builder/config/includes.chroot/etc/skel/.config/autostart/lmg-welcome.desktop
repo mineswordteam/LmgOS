@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=LMG Welcome
+Exec=lmg-welcome
+Icon=/usr/share/pixmaps/lmg-start-logo.png
+Terminal=false
+Categories=System;

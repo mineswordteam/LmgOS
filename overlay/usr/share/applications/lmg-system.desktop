@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=LMG System
+Comment=LMG OS System Information
+Exec=lmg-system
+Icon=/usr/share/pixmaps/lmg-start-logo.png
+Terminal=false
+Categories=System;Settings;Utility;LMG-OS;
+Keywords=LMG;OS;System;

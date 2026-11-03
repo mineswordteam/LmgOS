@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=LMG OS Startup Theme
+Description=Boot logo for LMG OS (Logic Mind Grid OS - MineswordTeam)
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/lmg-plymouth
+ScriptFile=/usr/share/plymouth/themes/lmg-plymouth/lmg-plymouth.script

@@ -1,0 +1,37 @@
+LMG OS 1.0.0 — Official Visual Media & QA Showcase Manifest
+================================================================
+
+Target ISO: LMG-OS-1.0.0-amd64.iso
+SHA-256: 41b61c9e8cdfd72a2cf23a8bfcbaf31e50085a66a13d092ed10a4dbd3d2db76b
+
+1. Boot Showcase (boot/):
+   - bootloader.png: ISOLINUX boot menu rendering "LMG OS 1.0.0 Live" and "Install LMG OS".
+   - plymouth.png: Plymouth boot screen with hexagonal LMG OS logo and "MineswordTeam" branding.
+
+2. Desktop Showcase (desktop/):
+   - desktop.png: XFCE 4 desktop environment with dark navy blue geometric wallpaper and bottom panel.
+   - start-menu.png: Taskbar start button with hexagonal LMG OS logo and XFCE application launcher menu.
+   - file-manager.png: Thunar file manager displaying system storage layout.
+   - settings.png: XFCE control center / settings manager.
+
+3. LMG Applications Suite Showcase (applications/):
+   - welcome.png: LMG Welcome dashboard and quick shortcut launcher.
+   - system.png: LMG System info displaying LMG OS 1.0.0, Debian 13.6 (Trixie), kernel, and CPU architecture.
+   - ram.png: LMG RAM real-time physical memory/swap progress monitor and safe cache dropper.
+   - test.png: LMG Test system diagnostic suite checking CPU cores, RAM, disk, network, and package manager.
+   - hardware.png: LMG Hardware inspector showing CPU, GPU, memory, disk devices, and network adapters.
+   - disk.png: LMG Disk utility reporting mounted filesystems, total/used/free space, and mountpoints.
+   - cleaner.png: LMG Cleaner safe maintenance tool purging APT package cache and user thumbnail caches.
+   - startup.png: LMG Startup manager listing desktop autostart apps and active systemd units.
+   - update.png: LMG Update package updater querying real Debian apt upgradable repository index.
+   - driver.png: LMG Driver assistant scanning PCI hardware devices and active kernel modules.
+   - gaming.png: LMG Gaming performance utility with CPU governor switcher and GameBoost mode.
+
+4. Installer & Installed OS Showcase (installer/):
+   - installer-start.png: Calamares / Debian OS installer welcome screen.
+   - partitioning.png: Storage device partition setup.
+   - installation.png: System package extraction and installation progress.
+   - installer-complete.png: Installation complete dialog.
+   - installed-system.png: Installed LMG OS booted from QEMU virtual disk.
+
+* Note: Direct video stream recording was unavailable due to lack of a virtual display grabber; complete frame sequences and screendumps were captured directly from the live QEMU display session.

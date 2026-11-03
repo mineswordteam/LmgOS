@@ -1,0 +1,8 @@
+iso-builder/
+overlay/
+lmg-iso-root/
+__pycache__/
+*.pyc
+*.iso
+build.log
+build2.log
