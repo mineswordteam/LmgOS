@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://mineswordteam.github.io/LmgOS/</loc><lastmod>2026-10-30</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://mineswordteam.github.io/LmgOS/</loc><lastmod>2026-11-05</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>https://mineswordteam.github.io/LmgOS/download/</loc><lastmod>2026-11-05</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url><loc>https://mineswordteam.github.io/LmgOS/features/</loc><lastmod>2026-11-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://mineswordteam.github.io/LmgOS/whats-new/</loc><lastmod>2026-11-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://mineswordteam.github.io/LmgOS/install-guide/</loc><lastmod>2026-11-05</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://mineswordteam.github.io/LmgOS/faq/</loc><lastmod>2026-11-05</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://mineswordteam.github.io/LmgOS/about/</loc><lastmod>2026-11-05</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url>
+</urlset>

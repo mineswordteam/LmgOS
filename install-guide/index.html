@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-l="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How to install LMG OS — step-by-step guide | راهنمای نصب ال‌ام‌جی او اس</title>
+<meta name="description" content="Install or upgrade LMG OS in minutes: write the ISO to a USB stick, boot, and run the installer. Fixes for common problems. راهنمای نصب و ارتقای ال‌ام‌جی او اس.">
+<meta name="keywords" content="LMG OS, LMGOS, Logic Mind Grid, ال‌ام‌جی او اس, لینوکس سبک, lightweight Linux, Debian 13 XFCE, Minesword Team, تیم ماین‌سورد, install LMG OS, Rufus Linux USB, راهنمای نصب لینوکس, نصب ال‌ام‌جی او اس">
+<meta name="author" content="Minesword Team">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://mineswordteam.github.io/LmgOS/install-guide/">
+<link rel="alternate" hreflang="en" href="https://mineswordteam.github.io/LmgOS/install-guide/"><link rel="alternate" hreflang="fa" href="https://mineswordteam.github.io/LmgOS/install-guide/"><link rel="alternate" hreflang="x-default" href="https://mineswordteam.github.io/LmgOS/install-guide/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="LMG OS by Minesword Team">
+<meta property="og:title" content="How to install LMG OS — step-by-step guide | راهنمای نصب ال‌ام‌جی او اس"><meta property="og:description" content="Install or upgrade LMG OS in minutes: write the ISO to a USB stick, boot, and run the installer. Fixes for common problems. راهنمای نصب و ارتقای ال‌ام‌جی او اس."><meta property="og:url" content="https://mineswordteam.github.io/LmgOS/install-guide/">
+<meta property="og:image" content="https://mineswordteam.github.io/LmgOS/assets/og.jpg"><meta property="og:image:alt" content="LMG OS desktop">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="How to install LMG OS — step-by-step guide | راهنمای نصب ال‌ام‌جی او اس"><meta name="twitter:image" content="https://mineswordteam.github.io/LmgOS/assets/og.jpg">
+<meta name="theme-color" content="#02050c">
+<link rel="icon" type="image/png" href="../assets/lmg-favicon.png">
+<link rel="stylesheet" href="../assets/site.css">
+<script>try{var l=new URLSearchParams(location.search).get("lang")||localStorage.getItem("lmglang")||((navigator.language||"").slice(0,2)=="fa"?"fa":"en");if(l!="fa")l="en";document.documentElement.setAttribute("data-l",l);document.documentElement.lang=l;document.documentElement.dir=l=="fa"?"rtl":"ltr"}catch(e){}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "How to install LMG OS", "step": [{"@type": "HowToStep", "name": "Download and check the ISO", "text": "Download the ISO and verify its SHA-256."}, {"@type": "HowToStep", "name": "Write it to a USB stick", "text": "Use Rufus (DD Image mode), balenaEtcher or dd."}, {"@type": "HowToStep", "name": "Boot from the stick", "text": "Open the boot menu and choose LMG OS Live."}, {"@type": "HowToStep", "name": "Install", "text": "Run Install LMG OS and follow the steps."}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "LMG OS", "item": "https://mineswordteam.github.io/LmgOS/"}, {"@type": "ListItem", "position": 2, "name": "Install guide", "item": "https://mineswordteam.github.io/LmgOS/install-guide/"}]}</script>
+</head>
+<body>
+<div class="bgfx"></div>
+<header><div class="wrap bar">
+  <a class="brand" href="../"><img src="../assets/lmg-logo.png" alt="LMG OS logo"><span>LMG OS</span></a>
+  <nav id="nav"><a href="../"><span class="en" lang="en">Home</span><span class="fa" lang="fa" dir="rtl">خانه</span></a><a href="../features/"><span class="en" lang="en">Features</span><span class="fa" lang="fa" dir="rtl">ویژگی‌ها</span></a><a href="../whats-new/"><span class="en" lang="en">What's new</span><span class="fa" lang="fa" dir="rtl">تازه‌ها</span></a><a href="../install-guide/" class="on"><span class="en" lang="en">Install guide</span><span class="fa" lang="fa" dir="rtl">راهنمای نصب</span></a><a href="../faq/"><span class="en" lang="en">FAQ</span><span class="fa" lang="fa" dir="rtl">پرسش‌ها</span></a><a href="../about/"><span class="en" lang="en">About</span><span class="fa" lang="fa" dir="rtl">درباره‌ی ما</span></a></nav>
+  <a class="btn sm main dlb" href="../download/">⬇ <span class="en" lang="en">Download</span><span class="fa" lang="fa" dir="rtl">دانلود</span></a>
+  <button class="lang" id="lang" aria-label="Language">EN | فا</button>
+  <button class="burger" id="burger" aria-label="Menu"><i></i><i></i><i></i></button>
+</div></header>
+<main>
+<section class="phead"><div class="wrap"><h1 class="en" lang="en">Install guide</h1><h1 class="fa" lang="fa" dir="rtl">راهنمای نصب</h1><p class="en lead" lang="en">From the download to a working desktop in a few minutes.</p><p class="fa lead" lang="fa" dir="rtl">از دانلود تا دسکتاپ آماده، در چند دقیقه.</p></div></section>
+<section><div class="wrap narrow">
+  <h2 class="en" lang="en">1. Prepare</h2><h2 class="fa" lang="fa" dir="rtl">۱. آماده‌سازی</h2>
+  <div class="steps"><div class="step rv"><div><b><span class="en" lang="en">Download and check</span><span class="fa" lang="fa" dir="rtl">دانلود و بررسی</span></b><p class="en" lang="en">Download the ISO and the SHA-256 file from the download page and check them. The result must match.</p><p class="fa" lang="fa" dir="rtl">فایل ISO و SHA-256 را از صفحه‌ی دانلود بگیرید و بررسی کنید. باید یکی باشند.</p></div></div>
+  <div class="step rv"><div><b><span class="en" lang="en">Back up your data</span><span class="fa" lang="fa" dir="rtl">پشتیبان بگیرید</span></b><p class="en" lang="en">Installing can erase data. Save your files before you choose a disk.</p><p class="fa" lang="fa" dir="rtl">نصب ممکن است اطلاعات را پاک کند. پیش از انتخاب دیسک فایل‌هایتان را ذخیره کنید.</p></div></div>
+  <div class="step rv"><div><b><span class="en" lang="en">Write it to a USB stick</span><span class="fa" lang="fa" dir="rtl">نوشتن روی فلش</span></b><p class="en" lang="en">Use Rufus (choose DD Image mode), balenaEtcher or dd. This erases the stick.</p><p class="fa" lang="fa" dir="rtl">از Rufus (حالت DD Image را انتخاب کنید)، balenaEtcher یا dd استفاده کنید. فلش پاک می‌شود.</p></div></div></div>
+  <h2 class="en" lang="en">2. Boot</h2><h2 class="fa" lang="fa" dir="rtl">۲. بوت</h2>
+  <div class="steps"><div class="step rv"><div><b><span class="en" lang="en">Open the boot menu</span><span class="fa" lang="fa" dir="rtl">منوی بوت</span></b><p class="en" lang="en">Restart and press F12, F10, Esc or F2 (it depends on your computer). Choose the USB stick.</p><p class="fa" lang="fa" dir="rtl">ریستارت کنید و F12، F10، Esc یا F2 را بزنید (به کامپیوتر بستگی دارد). فلش را انتخاب کنید.</p></div></div>
+  <div class="step rv"><div><b><span class="en" lang="en">Choose LMG OS Live</span><span class="fa" lang="fa" dir="rtl">LMG OS Live را انتخاب کنید</span></b><p class="en" lang="en">If the screen stays black, restart and choose the safe graphics entry.</p><p class="fa" lang="fa" dir="rtl">اگر صفحه سیاه ماند، دوباره بوت کنید و گزینه‌ی safe graphics را بزنید.</p></div></div></div>
+  <h2 class="en" lang="en">3. Install or upgrade</h2><h2 class="fa" lang="fa" dir="rtl">۳. نصب یا ارتقا</h2>
+  <div class="steps"><div class="step rv"><div><b><span class="en" lang="en">Start the installer</span><span class="fa" lang="fa" dir="rtl">نصب‌کننده را اجرا کنید</span></b><p class="en" lang="en">Open Install LMG OS on the desktop and follow the steps. You choose your own password.</p><p class="fa" lang="fa" dir="rtl">Install LMG OS را روی دسکتاپ باز کنید و مراحل را بروید. رمز را خودتان انتخاب می‌کنید.</p></div></div>
+  <div class="step rv"><div><b><span class="en" lang="en">Upgrading from 1.0?</span><span class="fa" lang="fa" dir="rtl">ارتقا از 1.0؟</span></b><p class="en" lang="en">When the installer finds LMG OS 1.0 it offers Upgrade: your files, settings and programs are kept. Choose Install instead for a clean install.</p><p class="fa" lang="fa" dir="rtl">وقتی نصب‌کننده LMG OS 1.0 را پیدا کرد Upgrade را پیشنهاد می‌دهد: فایل‌ها، تنظیمات و برنامه‌هایتان می‌مانند. برای نصب تمیز Install را بزنید.</p></div></div>
+  <div class="step rv"><div><b><span class="en" lang="en">Restart and enjoy</span><span class="fa" lang="fa" dir="rtl">ریستارت و لذت ببرید</span></b><p class="en" lang="en">Remove the USB stick when asked. The first start shows a short Welcome and tutorial.</p><p class="fa" lang="fa" dir="rtl">وقتی خواست فلش را بردارید. اولین بار یک خوش‌آمد و آموزش کوتاه نشان داده می‌شود.</p></div></div></div>
+  <h2 class="en" lang="en">Problems?</h2><h2 class="fa" lang="fa" dir="rtl">مشکل دارید؟</h2>
+  <div class="grid two">
+    <div class="card"><h3 class="en" lang="en">The USB stick shows a tiny size in Windows</h3><h3 class="fa" lang="fa" dir="rtl">فلش در ویندوز حجم خیلی کم نشان می‌دهد</h3><p class="en" lang="en">That is normal after writing an ISO. To use the stick again, open Disk Management, delete its volumes and create a new FAT32 volume, or use Rufus with “Non bootable”.</p><p class="fa" lang="fa" dir="rtl">بعد از نوشتن ISO طبیعی است. برای استفاده‌ی دوباره، در Disk Management بخش‌های فلش را حذف کنید و یک پارتیشن FAT32 جدید بسازید، یا Rufus را با «Non bootable» بزنید.</p></div>
+    <div class="card"><h3 class="en" lang="en">The installer cannot erase a partition</h3><h3 class="fa" lang="fa" dir="rtl">نصب‌کننده نمی‌تواند پارتیشن را پاک کند</h3><p class="en" lang="en">Make sure the partition is not mounted (unmount it in the file manager or with umount) and try again.</p><p class="fa" lang="fa" dir="rtl">مطمئن شوید پارتیشن mount نشده باشد (در مدیر فایل یا با umount جدا کنید) و دوباره امتحان کنید.</p></div>
+    <div class="card"><h3 class="en" lang="en">Black screen or no boot</h3><h3 class="fa" lang="fa" dir="rtl">صفحه‌ی سیاه یا بوت نشدن</h3><p class="en" lang="en">Use the safe graphics entry. If it still fails, email us your computer model and a photo.</p><p class="fa" lang="fa" dir="rtl">گزینه‌ی safe graphics را بزنید. اگر باز هم نشد، مدل کامپیوتر و یک عکس برایمان ایمیل کنید.</p></div>
+  </div>
+  <p class="more"><a class="btn main" href="../download/">⬇ <span class="en" lang="en">Download LMG OS 1.1</span><span class="fa" lang="fa" dir="rtl">دانلود LMG OS 1.1</span></a> <a class="btn" href="../faq/"><span class="en" lang="en">FAQ</span><span class="fa" lang="fa" dir="rtl">پرسش‌ها</span></a></p>
+</div></section>
+</main>
+<footer><div class="wrap">
+  <div class="fgrid">
+    <div><a class="brand" href="../"><img src="../assets/lmg-logo.png" alt=""><span>LMG OS</span></a>
+      <p class="mut"><span class="en" lang="en">A light, secure and beautiful Linux based on Debian 13 and XFCE. Free and open source.</span><span class="fa" lang="fa" dir="rtl">یک لینوکس سبک، امن و زیبا بر پایه‌ی Debian 13 و XFCE. رایگان و متن‌باز.</span></p></div>
+    <div><h4><span class="en" lang="en">Pages</span><span class="fa" lang="fa" dir="rtl">صفحه‌ها</span></h4><a href="../"><span class="en" lang="en">Home</span><span class="fa" lang="fa" dir="rtl">خانه</span></a><a href="../features/"><span class="en" lang="en">Features</span><span class="fa" lang="fa" dir="rtl">ویژگی‌ها</span></a><a href="../whats-new/"><span class="en" lang="en">What's new</span><span class="fa" lang="fa" dir="rtl">تازه‌ها</span></a><a href="../install-guide/"><span class="en" lang="en">Install guide</span><span class="fa" lang="fa" dir="rtl">راهنمای نصب</span></a><a href="../faq/"><span class="en" lang="en">FAQ</span><span class="fa" lang="fa" dir="rtl">پرسش‌ها</span></a><a href="../about/"><span class="en" lang="en">About</span><span class="fa" lang="fa" dir="rtl">درباره‌ی ما</span></a><a href="../download/"><span class="en" lang="en">Download</span><span class="fa" lang="fa" dir="rtl">دانلود</span></a></div>
+    <div><h4><span class="en" lang="en">Project</span><span class="fa" lang="fa" dir="rtl">پروژه</span></h4><a href="https://github.com/mineswordteam/lmgos_download/releases"><span class="en" lang="en">All releases</span><span class="fa" lang="fa" dir="rtl">همه‌ی انتشارها</span></a><a href="https://github.com/mineswordteam/lmgos_download/blob/main/LICENSE">License (GPL-3.0)</a><a href="https://github.com/mineswordteam/lmgos_download/blob/main/NOTICE.md">Notices</a><a href="https://github.com/mineswordteam/lmgos_download/blob/main/SOURCE.md">Source</a><a href="https://github.com/mineswordteam/lmgos_download/blob/main/PRIVACY.md">Privacy</a><a href="https://github.com/mineswordteam/lmgos_download/blob/main/DISCLAIMER.md">Disclaimer</a></div>
+    <div class="by"><img src="../assets/mineswordteam-logo.png" alt="Minesword Team logo"><span class="mut"><span class="en" lang="en">Made by</span><span class="fa" lang="fa" dir="rtl">ساخته‌ی</span></span><strong>Minesword Team</strong><a href="mailto:minesword.team.iran@gmail.com" class="ltr">minesword.team.iran@gmail.com</a></div>
+  </div>
+  <p class="note"><span class="en" lang="en">LMG OS is beta software provided “as is”, without warranty. It is not official Debian and is not affiliated with Microsoft or Mozilla. Third-party names belong to their owners.</span><span class="fa" lang="fa" dir="rtl">LMG OS نرم‌افزار بتا است و «همان‌طور که هست» و بدون ضمانت ارائه می‌شود. دبیان رسمی نیست و به مایکروسافت یا موزیلا ربطی ندارد. نام‌های شخص ثالث متعلق به صاحبانشان است.</span></p>
+  <p class="note ltr">© 2026 Minesword Team · LMG OS · LMGOS · Logic Mind Grid</p>
+</div></footer>
+<div id="lb"><img alt=""></div>
+<script src="../assets/site.js"></script>
+</body></html>
