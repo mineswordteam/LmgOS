@@ -49,6 +49,12 @@
     <div class="card"><h3>Windows</h3><pre class="ltr">certutil -hashfile LMG-OS-1.1-amd64.iso SHA256</pre></div>
     <div class="card"><h3>Android (Termux)</h3><pre class="ltr">sha256sum /sdcard/Download/LMG-OS-1.1-amd64.iso</pre></div>
   </div>
+  <h2><span class="en" lang="en">Verify the signature (optional)</span><span class="fa" lang="fa" dir="rtl">بررسی امضا (اختیاری)</span></h2><p class="en mut" lang="en">The SHA-256 file is signed with our GPG key, so you can be sure it comes from Minesword Team.</p><p class="fa mut" lang="fa" dir="rtl">فایل SHA-256 با کلید GPG ما امضا شده تا مطمئن شوید از طرف Minesword Team است.</p>
+  <div class="card"><h3><span class="en" lang="en">Key fingerprint</span><span class="fa" lang="fa" dir="rtl">اثر انگشت کلید</span></h3><pre class="ltr" id="fp">FFE9 91F5 955C E658 B5C1  7581 0B7F 7581 8CF2 0F75</pre>
+  <p class="mut"><a href="https://raw.githubusercontent.com/mineswordteam/lmgos_download/main/key/LMG-OS-public.asc">LMG-OS-public.asc</a> · <a href="https://raw.githubusercontent.com/mineswordteam/lmgos_download/main/key/LMG-OS-1.1-amd64.iso.sha256.asc">LMG-OS-1.1-amd64.iso.sha256.asc</a> · <a href="https://raw.githubusercontent.com/mineswordteam/lmgos_download/main/key/LMG-OS-1.1-amd64.iso.sha256">LMG-OS-1.1-amd64.iso.sha256</a></p>
+  <pre class="ltr">gpg --import LMG-OS-public.asc
+gpg --verify LMG-OS-1.1-amd64.iso.sha256.asc LMG-OS-1.1-amd64.iso.sha256
+sha256sum -c LMG-OS-1.1-amd64.iso.sha256</pre></div>
   <h2><span class="en" lang="en">Requirements</span><span class="fa" lang="fa" dir="rtl">نیازمندی‌ها</span></h2>
   <div class="req"><div><b>64-bit</b><span><span class="en" lang="en">Intel / AMD CPU</span><span class="fa" lang="fa" dir="rtl">پردازنده‌ی Intel / AMD</span></span></div><div><b>2 GB</b><span><span class="en" lang="en">RAM or more</span><span class="fa" lang="fa" dir="rtl">رم یا بیشتر</span></span></div><div><b>15 GB</b><span><span class="en" lang="en">free disk to install</span><span class="fa" lang="fa" dir="rtl">فضای خالی برای نصب</span></span></div><div><b>4 GB</b><span><span class="en" lang="en">USB stick</span><span class="fa" lang="fa" dir="rtl">فلش</span></span></div></div>
   <h2><span class="en" lang="en">Next steps</span><span class="fa" lang="fa" dir="rtl">مراحل بعد</span></h2>
