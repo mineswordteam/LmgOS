@@ -1,0 +1,26 @@
+# LMG OS (Logic Mind Grid OS)
+
+> LMG OS (Logic Mind Grid OS) is a free, lightweight, good-looking Linux distribution based on Debian 13 with the XFCE desktop, made by Minesword Team. Persian and English interface.
+
+## Pages
+- [Home](https://mineswordteam.github.io/LmgOS/)
+- [Download](https://mineswordteam.github.io/LmgOS/download/)
+- [Features](https://mineswordteam.github.io/LmgOS/features/)
+- [What's new](https://mineswordteam.github.io/LmgOS/whats-new/)
+- [Install guide](https://mineswordteam.github.io/LmgOS/install-guide/)
+- [Screenshots and logo](https://mineswordteam.github.io/LmgOS/screenshots/)
+- [FAQ](https://mineswordteam.github.io/LmgOS/faq/)
+- [About](https://mineswordteam.github.io/LmgOS/about/)
+
+## Images (free to use with credit: LMG OS / Minesword Team)
+- [LMG OS desktop](https://mineswordteam.github.io/LmgOS/assets/desktop.jpg): The LMG OS desktop (Logic Mind Grid OS, Debian 13 with XFCE): neon-blue theme, sidebar with shortcuts and a taskbar.
+- [LMG OS start menu](https://mineswordteam.github.io/LmgOS/assets/startmenu.jpg): The LMG OS start menu with search, favourites and Wine for Windows programs.
+- [LMG Control Panel settings](https://mineswordteam.github.io/LmgOS/assets/settings.jpg): The LMG Control Panel settings page: updates, appearance, language and system options.
+- [LMG OS hardware information](https://mineswordteam.github.io/LmgOS/assets/hardware.jpg): Complete hardware information in LMG OS: processor, memory, graphics and storage.
+- [LMG OS built-in tutorial](https://mineswordteam.github.io/LmgOS/assets/tutorial.jpg): The built-in step-by-step tutorial in LMG OS.
+- [LMG OS welcome app](https://mineswordteam.github.io/LmgOS/assets/welcome.jpg): The LMG OS welcome and setup wizard with greetings in 24 languages.
+- [LMG OS neon terminal](https://mineswordteam.github.io/LmgOS/assets/terminal.jpg): The neon-blue terminal in LMG OS.
+- [LMG OS custom start page](https://mineswordteam.github.io/LmgOS/assets/browser.jpg): The custom browser start page of LMG OS.
+- [LMG OS sidebar](https://mineswordteam.github.io/LmgOS/assets/sidebar.jpg): The LMG OS sidebar with app shortcuts.
+- [LMG OS logo](https://mineswordteam.github.io/LmgOS/assets/lmg-logo.png): The LMG OS logo: a neon-blue hexagon with the letters LMG.
+- [LMG OS social preview](https://mineswordteam.github.io/LmgOS/assets/og.jpg): LMG OS desktop social preview image (1120x630).
