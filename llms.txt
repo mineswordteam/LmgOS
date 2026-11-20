@@ -24,3 +24,6 @@
 - [LMG OS sidebar](https://mineswordteam.github.io/LmgOS/assets/sidebar.jpg): The LMG OS sidebar with app shortcuts.
 - [LMG OS logo](https://mineswordteam.github.io/LmgOS/assets/lmg-logo.png): The LMG OS logo: a neon-blue hexagon with the letters LMG.
 - [LMG OS social preview](https://mineswordteam.github.io/LmgOS/assets/og.jpg): LMG OS desktop social preview image (1120x630).
+
+## Latest version
+LMG OS 1.2 (November 19, 2026): Ultimate Security (Alt+F3), USB Guard, LMG Driver, Windows gaming (DXVK, Wine drive mapping), LMG Connector file transfer, new window frame and shutdown animation, online installer. Release notes: https://mineswordteam.github.io/LmgOS/whats-new/
